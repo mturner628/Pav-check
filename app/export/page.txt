@@ -1,0 +1,11 @@
+# ================================
+# File: app/export/page.tsx
+# ================================
+export default function ExportPage() {
+  return (
+    <div className="space-y-3">
+      <h1 className="text-xl font-semibold">Exports</h1>
+      <a className="underline text-blue-600" href="/api/export/flags">Download Open Follow-Ups (CSV)</a>
+    </div>
+  );
+}
